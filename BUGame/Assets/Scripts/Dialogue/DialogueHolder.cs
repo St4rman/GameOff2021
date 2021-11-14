@@ -4,27 +4,40 @@ namespace DialogueSystem
 {
     public class DialogueHolder : MonoBehaviour
     {
-        private void Awake()
+        public int levelnumber=0;
+        public bool levelend=false;
+        /*private void Awake()
+        {
+            StartCoroutine(dialogueSequence(ln));
+        }*/
+        void Update()
+        {
+              if(Input.GetKeyDown(KeyCode.F)&&levelend)
+              {
+                  StartSequence();
+              }
+        }
+        void StartSequence()
         {
             StartCoroutine(dialogueSequence());
         }
-
-        private IEnumerator dialogueSequence()
+       private IEnumerator dialogueSequence()
         {
-            for(int i=0;i<transform.childCount;i++)
+            transform.GetChild(levelnumber).gameObject.SetActive(true);
+            for(int i=0;i<transform.GetChild(levelnumber).childCount;i++)
             {
-                Deactivate();
-                transform.GetChild(i).gameObject.SetActive(true);
-                yield return new WaitUntil(()=>transform.GetChild(i).GetComponent<DialogueLine>().finished);
+                Deactivate(levelnumber);
+                transform.GetChild(levelnumber).GetChild(i).gameObject.SetActive(true);
+                yield return new WaitUntil(()=>transform.GetChild(levelnumber).GetChild(i).GetComponent<DialogueLine>().finished);
             }
-            gameObject.SetActive(false);
+            transform.GetChild(levelnumber).gameObject.SetActive(false);
         }
 
-        private void Deactivate()
+        private void Deactivate(int levelnumber)
         {
-            for(int i=0;i<transform.childCount;i++)
+            for(int i=0;i<transform.GetChild(levelnumber).childCount;i++)
             {
-                transform.GetChild(i).gameObject.SetActive(false);
+                transform.GetChild(levelnumber).GetChild(i).gameObject.SetActive(false);
             }
         }
     }

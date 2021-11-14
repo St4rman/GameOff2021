@@ -37,13 +37,13 @@ public class AiCamVisionDetection : MonoBehaviour
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, targetDir, obsMask);
                 Debug.DrawRay(transform.position, targetDir* hit.distance, Color.red);
 
-                if(hit.collider != null)
+                if(hit.transform == targetInRange[i].transform)
                 {
-                    Debug.Log(" " + targetInRange[i].name + " is safe");
+                    Debug.Log(" " + targetInRange[i].name + " is dead");
                 }
                 else
                 {
-                    Debug.Log(" " + targetInRange[i].name + " is dead");
+                    Debug.Log(" " + targetInRange[i].name + " is safe");
                 }
             }
 
