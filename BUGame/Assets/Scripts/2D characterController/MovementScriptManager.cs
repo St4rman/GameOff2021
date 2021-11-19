@@ -32,7 +32,7 @@ public class MovementScriptManager : MonoBehaviour
         }
     }
 
-    void ToggleGunScript()
+    public void ToggleGunScript()
     {
         bool temp = _ssg.enabled;
         _ssg.enabled = !temp;
