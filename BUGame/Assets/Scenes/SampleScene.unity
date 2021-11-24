@@ -202,7 +202,7 @@ Transform:
   m_GameObject: {fileID: 42123903}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 10}
-  m_LocalScale: {x: 18, y: 10, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 881603083}
   m_RootOrder: 0
@@ -247,8 +247,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: db750325989564987a34393247d883b4, type: 3}
-  m_Color: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 4e1f6ea210ef73c4b9af6274040ccfe5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -421,7 +421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camref: {fileID: 519420031}
   time: 0.5
-  playAreaTo: {fileID: 0}
+  playAreaTo: {fileID: 881603082}
   playAreaFrom: {fileID: 1747870476}
   x: 0
   y: 0
@@ -1799,7 +1799,7 @@ MonoBehaviour:
   camref: {fileID: 519420031}
   time: 0.5
   playAreaTo: {fileID: 1747870476}
-  playAreaFrom: {fileID: 0}
+  playAreaFrom: {fileID: 881603082}
   x: -20
   y: 0
   appWorking: 0
@@ -2694,10 +2694,10 @@ MonoBehaviour:
   camref: {fileID: 519420031}
   time: 0.5
   playAreaTo: {fileID: 1616093677}
-  playAreaFrom: {fileID: 0}
+  playAreaFrom: {fileID: 881603082}
   x: 20
   y: 0
-  appWorking: 1
+  appWorking: 0
   appCleaned: 0
 --- !u!4 &1009220164
 Transform:
@@ -3754,7 +3754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camref: {fileID: 519420031}
   time: 0.5
-  playAreaTo: {fileID: 0}
+  playAreaTo: {fileID: 881603082}
   playAreaFrom: {fileID: 1616093677}
   x: 0
   y: 0
@@ -5507,7 +5507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camref: {fileID: 519420031}
   time: 0.5
-  playAreaTo: {fileID: 0}
+  playAreaTo: {fileID: 881603082}
   playAreaFrom: {fileID: 1616093677}
   x: 0
   y: 0
@@ -5758,7 +5758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camref: {fileID: 519420031}
   time: 0.5
-  playAreaTo: {fileID: 0}
+  playAreaTo: {fileID: 881603082}
   playAreaFrom: {fileID: 1616093677}
   x: 0
   y: 0
