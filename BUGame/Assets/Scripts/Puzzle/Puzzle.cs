@@ -41,7 +41,7 @@ public class Puzzle : MonoBehaviour {
             for (int x = 0; x < blocksPerLine; x++)
             {
                 GameObject blockObject = GameObject.CreatePrimitive(PrimitiveType.Quad);
-                blockObject.transform.position = -Vector2.one * (blocksPerLine - 1) * .5f + new Vector2(x, y);
+                blockObject.transform.position = -Vector2.one * (blocksPerLine - 1) * .5f + new Vector2(x, y+22);
                 blockObject.transform.parent = transform;
 
                 Block block = blockObject.AddComponent<Block>();
@@ -57,7 +57,6 @@ public class Puzzle : MonoBehaviour {
             }
         }
 
-        Camera.main.orthographicSize = blocksPerLine * .55f;
         inputs= new Queue<Block>();
     }
 
