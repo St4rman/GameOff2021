@@ -15,6 +15,9 @@ public class AiCamVisionDetection : MonoBehaviour
     public LayerMask obsMask;
     Vector2[] originalpos;
     GameObject Dragobj;
+
+    [SerializeField] MouseDrag md;
+
     void Start()
     {
        Dragobj=GameObject.Find("DraggableObjects");
@@ -33,7 +36,6 @@ public class AiCamVisionDetection : MonoBehaviour
     {
         Collider2D[] targetInRange = Physics2D.OverlapCircleAll(transform.position, viewRadius, targetMask);  
 
-        
         for(int i =0; i<targetInRange.Length; i++)
         {
             Vector2 toTarget = targetInRange[i].transform.position -transform.position;
@@ -51,18 +53,27 @@ public class AiCamVisionDetection : MonoBehaviour
                 
                 if(hit.transform == targetInRange[i].transform)
                 {
-                    switch(targetInRange[i].gameObject.name)
-                    {
-                        case "Dragobj1":  targetInRange[i].gameObject.transform.position=originalpos[0];
-                                         break;
-                        case "Dragobj2": targetInRange[i].gameObject.transform.position=originalpos[1];
-                                         break;
-                    }
+                    
+                    StartCoroutine(ResetPos(targetInRange[i]));
                 }
             }
         }
     }
-
+    IEnumerator ResetPos(Collider2D targetInRange)
+    {
+        
+        md.enabled=false;
+        switch(targetInRange.gameObject.name)
+                    {
+                        case "Dragobj1":  targetInRange.gameObject.transform.position=originalpos[0];
+                                         break;
+                        case "Dragobj2": targetInRange.gameObject.transform.position=originalpos[1];
+                                         break;
+                    }
+        yield return new WaitForSeconds(5);
+        md.enabled=true;
+        yield return null;
+    }
 
 
     void OnDrawGizmos()

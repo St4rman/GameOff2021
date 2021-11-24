@@ -1391,6 +1391,7 @@ MonoBehaviour:
   obsMask:
     serializedVersion: 2
     m_Bits: 512
+  md: {fileID: 2024684116}
 --- !u!1 &1073183647
 GameObject:
   m_ObjectHideFlags: 0
@@ -2191,7 +2192,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1643795591
 Transform:
   m_ObjectHideFlags: 0
@@ -2463,7 +2464,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1854034467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2481,6 +2482,7 @@ MonoBehaviour:
   shuffleLength: 20
   defaultMoveDuration: 0.2
   shuffleMoveDuration: 0.1
+  done: 0
 --- !u!4 &1854034468
 Transform:
   m_ObjectHideFlags: 0
@@ -2718,6 +2720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 349d81357255d244a8b44c03a4f688d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  done: 0
   FileCount: 0
 --- !u!50 &2025602032
 Rigidbody2D:
