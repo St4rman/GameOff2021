@@ -13,7 +13,20 @@ public class AiCamVisionDetection : MonoBehaviour
     [Header("Layers")]
     public LayerMask targetMask;
     public LayerMask obsMask;
+    Vector2[] originalpos;
+    GameObject Dragobj;
 
+    [SerializeField] MouseDrag md;
+
+    void Start()
+    {
+       Dragobj=GameObject.Find("DraggableObjects");
+       originalpos=new Vector2[Dragobj.transform.childCount];
+       for(int i=0;i<Dragobj.transform.childCount;i++)
+       {
+           originalpos[i]= Dragobj.transform.GetChild(i).transform.position;
+       }
+    }
     void Update()
     {
         checkForPlayer();
@@ -37,20 +50,30 @@ public class AiCamVisionDetection : MonoBehaviour
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, targetDir, obsMask);
                 Debug.DrawRay(transform.position, targetDir* hit.distance, Color.red);
 
-                if(hit.collider != null)
+                
+                if(hit.transform == targetInRange[i].transform)
                 {
-                    Debug.Log(" " + targetInRange[i].name + " is safe");
-                }
-                else
-                {
-                    Debug.Log(" " + targetInRange[i].name + " is dead");
+                    
+                    StartCoroutine(ResetPos(targetInRange[i]));
                 }
             }
-
-
         }
     }
-
+    IEnumerator ResetPos(Collider2D targetInRange)
+    {
+        
+        md.enabled=false;
+        switch(targetInRange.gameObject.name)
+                    {
+                        case "Dragobj1":  targetInRange.gameObject.transform.position=originalpos[0];
+                                         break;
+                        case "Dragobj2": targetInRange.gameObject.transform.position=originalpos[1];
+                                         break;
+                    }
+        yield return new WaitForSeconds(5);
+        md.enabled=true;
+        yield return null;
+    }
 
 
     void OnDrawGizmos()
