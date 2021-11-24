@@ -6,15 +6,16 @@ public class TogglePlayerControl : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] public GameObject player;
+    [SerializeField] public GameObject btD;
     bool temp;
     void OnTriggerEnter2D(Collider2D col)
     {
         player.GetComponent<GunMovementToggle>().enabled =false;
         player.GetComponent<SideScrollerGun>().enabled =false;
-
-        temp = player.GetComponent<CharacterController>().enabled;
-        player.GetComponent<CharacterController>().enabled = !temp;
+        player.GetComponent<CharacterController>().enabled = true;
 
         this.gameObject.SetActive(false);
+        btD.GetComponent<SwitchToApp>().StartCoroutine("effect");
+
     }
 }

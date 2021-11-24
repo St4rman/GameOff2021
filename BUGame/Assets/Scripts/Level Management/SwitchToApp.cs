@@ -22,7 +22,7 @@ public class SwitchToApp : MonoBehaviour
 
     }
 
-    IEnumerator effect(float dx, float dy)
+    public IEnumerator effect(float dx, float dy)
     {
         
         if(appWorking && !appCleaned)

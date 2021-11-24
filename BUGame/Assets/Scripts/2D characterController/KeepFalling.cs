@@ -19,6 +19,6 @@ public class KeepFalling : MonoBehaviour
     {
         col.gameObject.transform.position = respawnposi.transform.position;
         Rigidbody2D rb = col.gameObject.GetComponent<Rigidbody2D>();
-        rb.velocity= new Vector3(0f,-1f,0f);
+        rb.velocity= new Vector2(0f,-1f);
     }
 }

@@ -14,12 +14,14 @@ public class GlobalManager : MonoBehaviour
 
     void Update()
     {
-        StartCoroutine(setInteract());
+        if(allowInteract){
+            StartCoroutine(setInteract());
+        }
 
         if(petCareComplete & platformerComplete & trainComplete & cleanerComplete)
         {
             fullComplete = true;
-            StartCoroutine(setEndgame());
+            
         }
     }
 
@@ -32,17 +34,4 @@ public class GlobalManager : MonoBehaviour
         yield return null;
     }
 
-    public void complete(int i)
-    {
-        interactables[i].GetComponent<SwitchToApp>().appWorking = false;
-    }
-
-    IEnumerator setEndgame()
-    {
-        // for (int i=0; i< interactables.Length; i++)
-        // {
-        //     interactables[i].GetComponent<SwitchToApp>().appWorking = false;
-        // }
-        yield return null;
-    }
 }
