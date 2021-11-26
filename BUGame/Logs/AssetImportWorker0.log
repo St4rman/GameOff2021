@@ -15,11 +15,11 @@ D:/Unity/Projects/GameOff2021/BUGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52417
+55632
 Successfully changed project path to: D:/Unity/Projects/GameOff2021/BUGame
 D:/Unity/Projects/GameOff2021/BUGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 29.06 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 29.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,544 +35,80 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56460
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000849 seconds.
+Registered in 0.001106 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.635 seconds
+- Completed reload, in  0.784 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000852 seconds.
+Registered in 0.000966 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002106F664D40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073662A70 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106FAA05E0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210750C6A40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F26F020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074B92880 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F4C4A90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210745D9010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F664D40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5BAFA0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073A8B030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073AAB020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073AD8A30 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F886050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074BA5A90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F64CDD0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F4C4A90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F1B7850 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F64CDD0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F664D40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073C24640 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210738DC010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F886050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073C24640 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073C90040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F2BE030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073939010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5BAFA0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13AF90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F271B50 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F64CDD0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6DDE20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073A8B030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 52.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.689 seconds
+- Completed reload, in  1.137 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1874 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1876 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.5 MB.
-System memory in use after: 86.4 MB.
+System memory in use after: 86.5 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2319.
-Total: 1.977900 ms (FindLiveObjects: 0.236500 ms CreateObjectMapping: 0.082300 ms MarkObjects: 1.540900 ms  DeleteObjects: 0.117400 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2322.
+Total: 4.549800 ms (FindLiveObjects: 0.871700 ms CreateObjectMapping: 0.302600 ms MarkObjects: 3.170800 ms  DeleteObjects: 0.202500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Dialogue System.prefab
-  artifactKey: Guid(79d62bae666d32e45ba663088433f849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Dialogue System.prefab using Guid(79d62bae666d32e45ba663088433f849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc82af3c471cc3a00b673e75e2836255') in 0.051835 seconds
-  Import took 0.054604 seconds .
+  path: Assets/EnableGun.cs
+  artifactKey: Guid(af68ad67cc3a5fe4cb46762c222b3f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnableGun.cs using Guid(af68ad67cc3a5fe4cb46762c222b3f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2473462392e9998283b239d0446177') in 0.039998 seconds
+  Import took 0.043517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.360882 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(8f82774477547d744a9c60ea3f73298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(8f82774477547d744a9c60ea3f73298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85def98afbb4ba7c08d05ec77622acfc') in 0.005392 seconds
+  Import took 0.008008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.012242 seconds.
+  path: Assets/Scripts/DragItemScript.cs
+  artifactKey: Guid(e0ebd42295f88e54dac755dfa8202771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DragItemScript.cs using Guid(e0ebd42295f88e54dac755dfa8202771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3597d45c5a18a1fba3a4adcc2fdc051a') in 0.012053 seconds
+  Import took 0.014651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.877460 seconds.
+  path: Assets/Scripts/DragItemScript.cs
+  artifactKey: Guid(e0ebd42295f88e54dac755dfa8202771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DragItemScript.cs using Guid(e0ebd42295f88e54dac755dfa8202771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba0e3949cfb684dab881fc0b72f67a8') in 0.003068 seconds
+  Import took 0.006239 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000907 seconds.
+Registered in 0.000959 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002106F5CCB30 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107427F020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F7F70B0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210750C6A40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075596010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F1D9010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F267010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F1D9010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F1A3A70 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F1D9010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F1D9010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F4AF680 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F86E030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210750C6A40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F86E030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F64CDD0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F267010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106FB6C420 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106FA182F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106FA182F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107629BEF0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107398D010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210750C6A40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107629BEF0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5CCB30 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107397A730 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210761CA8F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107629BEF0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13BE20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F885950 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075743E20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210750C6A40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074B92880 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.616 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2325.
-Total: 1.789700 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.439800 ms  DeleteObjects: 0.104800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001075 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021074384020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107427F020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074AD0240 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075580020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075596010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F1AD830 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107687AB80 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107509C010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074AE3010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076A60040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F1AD830 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F4AF680 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073E4A020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AFBC50 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076615C90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073974010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F1AD830 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107640AB00 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073974010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F22020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F9FE6E0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107398D010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AFBC50 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075FD1010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F882A40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107640AB00 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097458020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076C08010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13DB40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076883120 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073974010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076A68050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074EA2010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.662 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2329.
-Total: 1.836900 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.446900 ms  DeleteObjects: 0.107500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001047 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021074384020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073F0B010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076BF3E90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076891770 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210759CE190 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073F43050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073E28030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107385F010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073EE4050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107546C030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073E4A020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076891770 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073E28030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107594F020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C5FA0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074C98040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076302010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F549B80 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076891770 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F86E030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210766226B0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210759CD450 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097380060 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210754A6010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A137550 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210767C52C0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076862830 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076B76030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.610 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.5 MB.
-System memory in use after: 86.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2333.
-Total: 1.933500 ms (FindLiveObjects: 0.303200 ms CreateObjectMapping: 0.052200 ms MarkObjects: 1.476600 ms  DeleteObjects: 0.100400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001163 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002107685E060 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210760096B0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074385240 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076891770 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073A98150 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073F43050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073DD4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107385F010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073865C40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107546C030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F50F020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076891770 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073DD4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107594F020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C5FA0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F599B50 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F4BF690 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075967010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076891770 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F484010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107685E060 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210759CD450 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210753C5FB0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210754A6010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13DB40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F26F230 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076A68050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076B76030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.609 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2337.
-Total: 1.858900 ms (FindLiveObjects: 0.193700 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.518300 ms  DeleteObjects: 0.103900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001072 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021074384020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F816510 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076862880 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210759CE190 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F535010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073C30010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210738953D0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073865C40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107681B840 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F668140 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073C30010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076403020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107594F020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106EF35780 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076403020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074C98040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097498020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F668140 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F2D5050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075903060 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076810730 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097679080 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210754A6010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13AF90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076883660 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076403020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F668140 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -580,177 +116,22 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.629 seconds
+- Completed reload, in  0.653 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.6 MB.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.5 MB.
+System memory in use after: 86.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2341.
-Total: 1.630400 ms (FindLiveObjects: 0.166500 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.323300 ms  DeleteObjects: 0.098300 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 1.873500 ms (FindLiveObjects: 0.233300 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.487400 ms  DeleteObjects: 0.111500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000972 seconds.
+Registered in 0.001060 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000210754AE020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F816510 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210743855D0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021047A89580 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073865C40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073A83030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107385F010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073865C40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107681B840 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073A83030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F599B50 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107594F020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021047A867B0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F599B50 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073CD6040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097498020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F2D5050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210754AE020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F2BE030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097679080 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073CDBF20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13AF90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074134270 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F599B50 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.616 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2345.
-Total: 1.792900 ms (FindLiveObjects: 0.204900 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.390000 ms  DeleteObjects: 0.156100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001037 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021074384020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073F0B010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076A523F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210745F9160 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073B21020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107385F010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073865C40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107681B840 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073B21020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F7F0010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107594F020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C5FA0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F7F0010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074C98040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107523A020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F484010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210759C9040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F2BE030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097A22020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13AF90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6416B0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F7F0010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -758,88 +139,68 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.611 seconds
+- Completed reload, in  0.662 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.6 MB.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.5 MB.
+System memory in use after: 86.5 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2349.
-Total: 1.704600 ms (FindLiveObjects: 0.206500 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.360400 ms  DeleteObjects: 0.096000 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2330.
+Total: 1.889300 ms (FindLiveObjects: 0.221900 ms CreateObjectMapping: 0.042700 ms MarkObjects: 1.510700 ms  DeleteObjects: 0.112700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000983 seconds.
+Registered in 0.001064 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000021074384020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073F0B010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074ACFB20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107423D030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210759CE190 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073B21020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107385F010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073865C40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107681B840 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107423D030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073B21020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C8B20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073A8B040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106EF35780 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C8B20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210741EE010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107523A020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107423D030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F484010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210759C9040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076810730 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210753C5F80 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073CDBF20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13AF90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075956AD0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C8B20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.5 MB.
+System memory in use after: 86.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2334.
+Total: 2.588800 ms (FindLiveObjects: 0.342100 ms CreateObjectMapping: 0.054500 ms MarkObjects: 2.080500 ms  DeleteObjects: 0.110200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001005 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.625 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 1.709300 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.041500 ms MarkObjects: 1.339000 ms  DeleteObjects: 0.095300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001004 seconds.
+Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -849,264 +210,20 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.634 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
 System memory in use after: 86.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2353.
-Total: 1.731600 ms (FindLiveObjects: 0.206400 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.384900 ms  DeleteObjects: 0.097200 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2342.
+Total: 2.007700 ms (FindLiveObjects: 0.215800 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.643700 ms  DeleteObjects: 0.105700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001085 seconds.
+Registered in 0.001081 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002106F6DEC40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073F0B010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107368AE80 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F7F4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973C0040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073C64010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210738953D0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073865C40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107681B840 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F7F4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073C64010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C8B20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210753FF030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C5FA0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C8B20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074C98040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097498020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F7F4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210745D9010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073B2D040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F888060 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210768D5E00 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106FA95010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A137550 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210736907C0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C8B20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F7F4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.624 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2357.
-Total: 1.965700 ms (FindLiveObjects: 0.272800 ms CreateObjectMapping: 0.108200 ms MarkObjects: 1.480500 ms  DeleteObjects: 0.103200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000979 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002106F6DEC40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073F0B010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076960E40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210768705F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002109736FBF0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097392460 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107428F030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F7F0010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074367030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097392460 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107681B840 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210768705F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6F2420 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F7F0010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021047A8B0F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C5FA0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F7F0010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210737C7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097498020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210768705F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210745A3010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210766226B0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F888060 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107409D020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097392460 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13DB40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107569A730 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F7F0010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210768705F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097392460 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.618 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.6 MB.
-System memory in use after: 86.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2361.
-Total: 2.044800 ms (FindLiveObjects: 0.366400 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.496500 ms  DeleteObjects: 0.132800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000988 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021073DE0040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075C70080 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F3F7960 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210752801B0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210740CF020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210738953D0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073961030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074BA2890 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210740CF020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073E30040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106EF35780 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210741EE010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107673CDD0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002109735A020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073CD8020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106FA9F030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097BFA020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13AF90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F4FB080 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1114,177 +231,45 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.616 seconds
+- Completed reload, in  0.673 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
 System memory in use after: 86.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2365.
-Total: 1.645700 ms (FindLiveObjects: 0.187300 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.323600 ms  DeleteObjects: 0.093200 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2346.
+Total: 1.758700 ms (FindLiveObjects: 0.232900 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.376700 ms  DeleteObjects: 0.107100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000981 seconds.
+Registered in 0.001025 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000021074384020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075C70080 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F2C04C0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210745B57A0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073DD4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210738953D0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073961030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107681B840 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073DD4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F3F6020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210764EB040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106EF35780 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F3F6020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074F5E030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097498020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210976F7010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073CD8020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210976BA720 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742D3020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13BE20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210754B0A70 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F3F6020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
+- Completed reload, in  0.747 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
 System memory in use after: 86.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2369.
-Total: 1.863500 ms (FindLiveObjects: 0.248400 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.473800 ms  DeleteObjects: 0.098500 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2350.
+Total: 2.699400 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.056900 ms MarkObjects: 2.184200 ms  DeleteObjects: 0.118300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000932 seconds.
+Registered in 0.001050 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000021073E34050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075C70080 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076A53230 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074312C90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F537790 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073EE0040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076C2A010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107385F010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073961030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076905E20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074312C90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076C2A010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076403020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210976B3040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C5FA0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076403020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074C98040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076302010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107673CDD0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074312C90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073B11010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073E34050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210736F4030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075D78020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210754A6010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13AF90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5452F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076403020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021047A87570 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1292,90 +277,24 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.591 seconds
+- Completed reload, in  0.631 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
 System memory in use after: 86.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2373.
-Total: 1.770700 ms (FindLiveObjects: 0.178300 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.454300 ms  DeleteObjects: 0.097900 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2354.
+Total: 1.825400 ms (FindLiveObjects: 0.191100 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.475600 ms  DeleteObjects: 0.117800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001093 seconds.
+Registered in 0.000968 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002106F6DEA30 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075C70080 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6FA810 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210754A94A0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F3EE010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210764E3030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107385F010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073961030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076905E20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210764E3030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210976B3040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C5FA0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076BF0020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076302010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107673CDD0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210745A3010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6DEA30 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076409040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075D78020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13AF90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F544F70 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -1383,605 +302,22 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.641 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.6 MB.
 System memory in use after: 86.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2377.
-Total: 1.877000 ms (FindLiveObjects: 0.318200 ms CreateObjectMapping: 0.054800 ms MarkObjects: 1.395600 ms  DeleteObjects: 0.107500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1558.825063 seconds.
-  path: Assets/Scripts/Core
-  artifactKey: Guid(e7d8daa9a973c78428767d65591c1b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core using Guid(e7d8daa9a973c78428767d65591c1b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0390df23435959045004d83d237be3a1') in 0.004274 seconds
-  Import took 0.007072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000618 seconds.
-  path: Assets/Scripts/Core
-  artifactKey: Guid(e7d8daa9a973c78428767d65591c1b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core using Guid(e7d8daa9a973c78428767d65591c1b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0390df23435959045004d83d237be3a1') in 0.002239 seconds
-  Import took 0.004686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.058501 seconds.
-  path: Assets/Scripts/Dialogue
-  artifactKey: Guid(f89e46405992bf44eb3cbe424d58a52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Dialogue using Guid(f89e46405992bf44eb3cbe424d58a52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb120c3cf66de9fccf16c347f1f5bb3') in 0.003248 seconds
-  Import took 0.005945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Scripts/Dialogue
-  artifactKey: Guid(f89e46405992bf44eb3cbe424d58a52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Dialogue using Guid(f89e46405992bf44eb3cbe424d58a52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb120c3cf66de9fccf16c347f1f5bb3') in 0.001741 seconds
-  Import took 0.004182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.417602 seconds.
-  path: Assets/Scripts/Non- 2DCC/RecycleScript.cs
-  artifactKey: Guid(349d81357255d244a8b44c03a4f688d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Non- 2DCC/RecycleScript.cs using Guid(349d81357255d244a8b44c03a4f688d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42dc6162f0b8d14e6976cf3814f7c66') in 0.002813 seconds
-  Import took 0.005370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 248.916467 seconds.
-  path: Assets/Scripts/Non- 2DCC/DragItemScript.cs
-  artifactKey: Guid(25e80f17683dc8c45b3f2f04de05e721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Non- 2DCC/DragItemScript.cs using Guid(25e80f17683dc8c45b3f2f04de05e721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61645e8a2e3a04547136af1272db559') in 0.007532 seconds
-  Import took 0.010354 seconds .
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2358.
+Total: 1.944600 ms (FindLiveObjects: 0.222600 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.549900 ms  DeleteObjects: 0.130100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000945 seconds.
+Registered in 0.001486 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000021074384020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097372040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F547A10 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F2E84F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F3EE010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076C2A010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107385F010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073961030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076905E20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076C2A010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107548C050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C5FA0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210764CCE30 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074C98040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076302010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097498020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073727020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F9B2020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073E37720 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075D78020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13AF90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076843080 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.605 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1869 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2382.
-Total: 1.801300 ms (FindLiveObjects: 0.198300 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.453100 ms  DeleteObjects: 0.108000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.386319 seconds.
-  path: Assets/Scripts/Puzzle
-  artifactKey: Guid(15a02ef988ef6b848bc13a0022169367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Puzzle using Guid(15a02ef988ef6b848bc13a0022169367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838d682dbbe4f2c53e023e03c7614bc5') in 0.006368 seconds
-  Import took 0.009061 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000992 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021074384020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F612010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210768636C0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107527F4A0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F3EE010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076C2A010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107385F010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021047A8B0F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076905E20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076C2A010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073DDC030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073C6C020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C5FA0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073DDC030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107548C050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076302010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097498020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076302010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210766226B0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075493730 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075D78020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13AF90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F8449F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107430C230 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F868010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.599 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2385.
-Total: 1.841600 ms (FindLiveObjects: 0.206300 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.492100 ms  DeleteObjects: 0.102100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.341350 seconds.
-  path: Assets/Scripts/DragItemScript.cs
-  artifactKey: Guid(e0ebd42295f88e54dac755dfa8202771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DragItemScript.cs using Guid(e0ebd42295f88e54dac755dfa8202771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd8a57f4b0f483af075133f260f3423') in 0.003972 seconds
-  Import took 0.006666 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000953 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021074619040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073707010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210745F6590 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076407030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073AEB1C0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076C2A010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107385F010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076B76030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076905E20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107631BC20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076C2A010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107548C050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106EF35780 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210764CCE30 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074619040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097BEC060 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107631BC20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6DD210 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210736F4030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742D3020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073CDBF20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13AF90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F8880B0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076407030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F3EE010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1869 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2390.
-Total: 1.868200 ms (FindLiveObjects: 0.273700 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.450000 ms  DeleteObjects: 0.103700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001198 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002107530E020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F80E440 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074AE7EB0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076407030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107687E010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002109753F030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107385F010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073961030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076905E20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076407030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002109753F030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076C32020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210976B3040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106EF35780 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107412CE40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210737C7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021097498020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076407030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210976F7010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6DD210 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F8A4660 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742D3020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210754A6010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A137550 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F8885F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076C32020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076407030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F3EE010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.621 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1869 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2394.
-Total: 1.828100 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.468100 ms  DeleteObjects: 0.106800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 259.375548 seconds.
-  path: Assets/Scripts/DragItemScript.cs
-  artifactKey: Guid(e0ebd42295f88e54dac755dfa8202771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DragItemScript.cs using Guid(e0ebd42295f88e54dac755dfa8202771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7924fe96f0b4a10190260f56e927a2d3') in 0.005293 seconds
-  Import took 0.007624 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001105 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000021074384020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073707010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074F620A0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076A58D90 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076865BE0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107428F030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107385F010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073961030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107681B840 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107428F030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6FA430 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107548C050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F5C5FA0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107412CE40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074C98040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107673CDD0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210976F7010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210766226B0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210736F4030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210761CA8F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210754A6010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13DB40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F3DB3F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6FA430 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075F88030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F3EE010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.623 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1869 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2398.
-Total: 2.404200 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.871300 ms  DeleteObjects: 0.141400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001022 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-00000210764ED050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021073F0B010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074F60B40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6DD210 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076B76080 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106FB71050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210742B7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075D98040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210764ED050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210762ABF00 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106FB71050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021074103010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107681B840 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6DD210 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6F2420 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210740D7030 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F8A4460 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107412CE40 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210764ED050 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076AE2040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107673CDD0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6DD210 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002107547C040 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6DD210 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F8A4460 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210761CA8F0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106A13BE20 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021075C9E4A0 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000021076607010 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002106F6DD210 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000210973B4020 doesn't match image D:\Unity\Projects\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -1989,13 +325,220 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.624 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2362.
+Total: 1.887500 ms (FindLiveObjects: 0.196500 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.521600 ms  DeleteObjects: 0.129200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000995 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.668 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2366.
+Total: 1.964000 ms (FindLiveObjects: 0.291000 ms CreateObjectMapping: 0.053700 ms MarkObjects: 1.475900 ms  DeleteObjects: 0.142400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001070 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2370.
+Total: 1.968200 ms (FindLiveObjects: 0.187600 ms CreateObjectMapping: 0.038900 ms MarkObjects: 1.608400 ms  DeleteObjects: 0.132200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001004 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.625 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2374.
+Total: 1.917900 ms (FindLiveObjects: 0.284600 ms CreateObjectMapping: 0.051300 ms MarkObjects: 1.458700 ms  DeleteObjects: 0.122300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000994 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.670 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.7 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 2.083800 ms (FindLiveObjects: 0.213800 ms CreateObjectMapping: 0.040200 ms MarkObjects: 1.719300 ms  DeleteObjects: 0.109000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.651 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.7 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 2.095300 ms (FindLiveObjects: 0.313400 ms CreateObjectMapping: 0.055800 ms MarkObjects: 1.608200 ms  DeleteObjects: 0.116500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001375 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.648 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 86.7 MB.
 System memory in use after: 86.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2403.
-Total: 2.165700 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.721700 ms  DeleteObjects: 0.114800 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2386.
+Total: 1.865200 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.039700 ms MarkObjects: 1.460900 ms  DeleteObjects: 0.107200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001104 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.661 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.7 MB.
+System memory in use after: 86.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2390.
+Total: 2.069100 ms (FindLiveObjects: 0.191400 ms CreateObjectMapping: 0.039800 ms MarkObjects: 1.703100 ms  DeleteObjects: 0.133700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001180 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.7 MB.
+System memory in use after: 86.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2394.
+Total: 1.823000 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.461800 ms  DeleteObjects: 0.116600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.7 MB.
+System memory in use after: 86.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2398.
+Total: 1.950200 ms (FindLiveObjects: 0.223700 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.490700 ms  DeleteObjects: 0.193900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
