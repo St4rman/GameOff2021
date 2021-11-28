@@ -14,6 +14,7 @@ public class DragItemScript : MonoBehaviour
         {
             spawnCondition=true;
             col.gameObject.SetActive(false);
+
         }
     }
 }

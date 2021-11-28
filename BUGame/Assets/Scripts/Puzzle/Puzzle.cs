@@ -1,8 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Puzzle : MonoBehaviour {
+
+    [SerializeField] GameObject app;
+    [SerializeField] Camera camref;
+    [SerializeField] GameObject pa;
+    
+
 
     public Texture2D image;
     public int blocksPerLine = 4;
@@ -12,6 +19,7 @@ public class Puzzle : MonoBehaviour {
     public bool done=false;
     enum PuzzleState{Solved,Shuffling,Inplay};
     PuzzleState state;
+    bool isShuffled = false;
 
 
     Block[,] blocks;
@@ -27,9 +35,16 @@ public class Puzzle : MonoBehaviour {
     }
     void Update()
     {
-        if(state==PuzzleState.Solved && Input.GetKeyDown(KeyCode.Space))
+        if(state==PuzzleState.Solved && !isShuffled)
         {
             StartShuffle();
+        }
+
+        if(done)
+        {
+            SwitchToApp temp = app.GetComponent<SwitchToApp>();
+            temp.appCleaned = true;
+            StartCoroutine(effect(0f, 0f));
         }
     }
     void CreatePuzzle()
@@ -110,6 +125,7 @@ public class Puzzle : MonoBehaviour {
     }
     void StartShuffle()
     {
+        isShuffled =true;
         state=PuzzleState.Shuffling;
         shuffleMovesRemaining=shuffleLength;
         emptyBlock.gameObject.SetActive(false);
@@ -150,6 +166,15 @@ public class Puzzle : MonoBehaviour {
          if(state==PuzzleState.Solved)
          {
              done=true;
+             
          }
      }
+    public IEnumerator effect(float dx, float dy)
+    {
+        camref.transform.DOMove(new Vector3(dx, dy, camref.transform.position.z), 0.5f, false);
+        pa.SetActive(false);
+        yield return null;
+    }
+
 }
+

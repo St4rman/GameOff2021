@@ -6,13 +6,14 @@ public class KeepFalling : MonoBehaviour
 {
     [SerializeField] public GameObject respawnposi;
     [SerializeField] public GameObject transition;
-    public bool done=false;
+    bool done=false;
 
     void Update(){
-        if(done)
+        if(Input.GetKeyDown(KeyCode.Escape)&& !done)
         {
             GetComponent<Collider2D>().enabled = false;
             transition.SetActive(true);
+            done=true;
         }
     }
     void OnTriggerEnter2D(Collider2D col)

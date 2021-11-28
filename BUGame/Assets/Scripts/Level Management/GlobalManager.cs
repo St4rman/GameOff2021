@@ -14,8 +14,8 @@ public class GlobalManager : MonoBehaviour
 
     void Update()
     {
-        if(allowInteract){
-            StartCoroutine(setInteract());
+        if(allowInteract && !fullComplete){
+            StartCoroutine(setInteract(true));
         }
 
         if(petCareComplete & platformerComplete & trainComplete & cleanerComplete)
@@ -23,14 +23,24 @@ public class GlobalManager : MonoBehaviour
             fullComplete = true;
             
         }
+
+        if(fullComplete){
+            StartCoroutine (setInteract(false));
+            StartCoroutine (setLastBoss());
+        }
     }
 
-    IEnumerator setInteract()
+    IEnumerator setInteract(bool temp)
     {
         for (int i =0; i< interactables.Length; i++)
         {
-            interactables[i].GetComponent<SwitchToApp>().appWorking = true;
+            interactables[i].GetComponent<SwitchToApp>().appWorking = temp;
         }
+        yield return null;
+    }
+
+    IEnumerator setLastBoss()
+    {
         yield return null;
     }
 
