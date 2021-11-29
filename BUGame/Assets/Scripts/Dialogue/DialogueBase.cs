@@ -5,6 +5,7 @@ namespace DialogueSystem
 {
     public class DialogueBase : MonoBehaviour
     { 
+        
         public bool finished {get; private set;}
         protected IEnumerator WriteText(string input, Text textHolder,Color textColor,Font textFont,AudioClip sound)
         { 
@@ -14,9 +15,8 @@ namespace DialogueSystem
             {
                 textHolder.text += input[i];
                 SoundManager.instance.PlaySound(sound);
-                yield return new WaitForSeconds(0.1f);
+                yield return new WaitForSeconds(0.01f);
             }
-
             yield return new WaitUntil(() => Input.GetMouseButton(0));
             finished = true;
         }

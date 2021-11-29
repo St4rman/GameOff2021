@@ -4,7 +4,9 @@ namespace DialogueSystem
 {
     public class DialogueHolder : MonoBehaviour
     {
+        [SerializeField] GlobalManager gm;
         public int levelnumber=0;
+        public bool Introdone=false;
         public bool levelend=false;
         /*private void Awake()
         {
@@ -30,7 +32,9 @@ namespace DialogueSystem
                 transform.GetChild(levelnumber).GetChild(i).gameObject.SetActive(true);
                 yield return new WaitUntil(()=>transform.GetChild(levelnumber).GetChild(i).GetComponent<DialogueLine>().finished);
             }
-            transform.GetChild(levelnumber).gameObject.SetActive(false);
+            gm.allowInteract=true;
+            Introdone=true;
+            transform.gameObject.SetActive(false);
         }
 
         private void Deactivate(int levelnumber)
