@@ -1,988 +1,866 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16320 MB
+OS: 'Windows 10 Home Single Language; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 8077 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\2020.3.0f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity/Projects/GameOff2021/BUGame
+E:/GitHub/GameOff2021/BUGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52928
-Successfully changed project path to: D:/Unity/Projects/GameOff2021/BUGame
-D:/Unity/Projects/GameOff2021/BUGame
+6917
+Successfully changed project path to: E:/GitHub/GameOff2021/BUGame
+E:/GitHub/GameOff2021/BUGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 65.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 104.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
-[Subsystems] Discovering subsystems at path D:/Unity/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity/Projects/GameOff2021/BUGame/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GitHub/GameOff2021/BUGame/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2206)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 940MX (ID=0x134d)
     Vendor:   
-    VRAM:     10077 MB
-    Driver:   30.0.14.7196
+    VRAM:     2010 MB
+    Driver:   30.0.14.9649
 Initialize mono
-Mono path[0] = 'D:/Unity/2020.3.0f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.083783 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003418 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.07 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 51.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.477 seconds
+- Completed reload, in  1.675 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.134011 seconds.
+Registered in 0.002293 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F8F69DCFF0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F654C010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC40FC90 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB80F830 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F661B3B0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB264630 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6570C20 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F69B5E10 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC07A020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F69B5E10 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F69B5E10 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB885030 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB264630 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F66C9030 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F69B5E10 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6C29BE0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F69B5E10 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC199040 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6C29BE0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC4B6010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC67FA30 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6E613F0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB8C4650 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC67FA30 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F69DCFF0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F67011D0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FAD11020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6A83BD0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC072060 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F596CC80 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6C29BE0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB8C4650 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FAD2BE30 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.30 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 47.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.182 seconds
+- Completed reload, in  1.328 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1883 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2330.
-Total: 1.708900 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.364300 ms  DeleteObjects: 0.100500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Fonts
-  artifactKey: Guid(a77366d467d40e54387ef0347199344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts using Guid(a77366d467d40e54387ef0347199344a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3063de9178a30376ecc5e50c036bbf65') in 0.006383 seconds
-  Import took 0.008913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Fonts/DTM-Sans.otf
-  artifactKey: Guid(7cb1ca1b6b4e6be449f054e0398299d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/DTM-Sans.otf using Guid(7cb1ca1b6b4e6be449f054e0398299d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09361734d3d0a36a5659a39fd15b2bd') in 0.123774 seconds
-  Import took 0.126100 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001566 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.615 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.2 MB.
-System memory in use after: 90.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2378.
-Total: 1.771500 ms (FindLiveObjects: 0.196500 ms CreateObjectMapping: 0.039700 ms MarkObjects: 1.431500 ms  DeleteObjects: 0.103000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000911 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.638 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.2 MB.
-System memory in use after: 90.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2382.
-Total: 1.746100 ms (FindLiveObjects: 0.173300 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.423100 ms  DeleteObjects: 0.109400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000952 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.612 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.2 MB.
-System memory in use after: 90.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2386.
-Total: 1.793500 ms (FindLiveObjects: 0.183000 ms CreateObjectMapping: 0.039200 ms MarkObjects: 1.462000 ms  DeleteObjects: 0.108700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001164 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.601 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.2 MB.
-System memory in use after: 90.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2390.
-Total: 1.822600 ms (FindLiveObjects: 0.192200 ms CreateObjectMapping: 0.039600 ms MarkObjects: 1.481500 ms  DeleteObjects: 0.108700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000960 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.610 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.2 MB.
-System memory in use after: 90.2 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2394.
-Total: 1.755400 ms (FindLiveObjects: 0.173100 ms CreateObjectMapping: 0.038700 ms MarkObjects: 1.433000 ms  DeleteObjects: 0.109900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001016 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.622 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2398.
-Total: 1.770400 ms (FindLiveObjects: 0.169200 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.455600 ms  DeleteObjects: 0.105000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000896 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.588 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2402.
-Total: 1.865000 ms (FindLiveObjects: 0.236600 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.475100 ms  DeleteObjects: 0.105900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001173 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.635 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2406.
-Total: 1.716300 ms (FindLiveObjects: 0.219300 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.349700 ms  DeleteObjects: 0.104800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001346 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.651 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2410.
-Total: 1.938000 ms (FindLiveObjects: 0.248900 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.527300 ms  DeleteObjects: 0.117900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000989 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.628 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2414.
-Total: 2.063200 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.039800 ms MarkObjects: 1.706000 ms  DeleteObjects: 0.114000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000997 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.609 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2418.
-Total: 1.900700 ms (FindLiveObjects: 0.215500 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.530600 ms  DeleteObjects: 0.112000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001077 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2422.
-Total: 1.825500 ms (FindLiveObjects: 0.199200 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.476200 ms  DeleteObjects: 0.111500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000967 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.612 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2426.
-Total: 1.912000 ms (FindLiveObjects: 0.212900 ms CreateObjectMapping: 0.042700 ms MarkObjects: 1.545300 ms  DeleteObjects: 0.110000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000993 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.617 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2430.
-Total: 1.952200 ms (FindLiveObjects: 0.283100 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.523600 ms  DeleteObjects: 0.102600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001099 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.647 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2434.
-Total: 2.083400 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.684900 ms  DeleteObjects: 0.126000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000965 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.630 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.3 MB.
-System memory in use after: 90.3 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2438.
-Total: 1.740200 ms (FindLiveObjects: 0.210100 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.389000 ms  DeleteObjects: 0.097400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001040 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.624 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2442.
-Total: 1.739500 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.371800 ms  DeleteObjects: 0.095900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001250 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.627 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2446.
-Total: 2.106600 ms (FindLiveObjects: 0.451800 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.513700 ms  DeleteObjects: 0.097400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001022 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.610 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2450.
-Total: 1.887400 ms (FindLiveObjects: 0.218300 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.509000 ms  DeleteObjects: 0.117100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001028 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.602 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2454.
-Total: 1.915500 ms (FindLiveObjects: 0.206600 ms CreateObjectMapping: 0.041200 ms MarkObjects: 1.559000 ms  DeleteObjects: 0.107800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001163 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.654 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2458.
-Total: 2.112000 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.054100 ms MarkObjects: 1.708800 ms  DeleteObjects: 0.107900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001632 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.628 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2462.
-Total: 1.922100 ms (FindLiveObjects: 0.200500 ms CreateObjectMapping: 0.128100 ms MarkObjects: 1.483700 ms  DeleteObjects: 0.108900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001111 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.680 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2466.
-Total: 2.114200 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.042600 ms MarkObjects: 1.714800 ms  DeleteObjects: 0.115700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001347 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.620 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2470.
-Total: 1.858300 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.493600 ms  DeleteObjects: 0.129200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001026 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.620 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2474.
-Total: 1.821000 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.433500 ms  DeleteObjects: 0.096600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000949 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.615 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2478.
-Total: 1.923300 ms (FindLiveObjects: 0.286400 ms CreateObjectMapping: 0.041100 ms MarkObjects: 1.481500 ms  DeleteObjects: 0.113700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000964 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.613 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.4 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2482.
-Total: 1.707900 ms (FindLiveObjects: 0.183600 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.389200 ms  DeleteObjects: 0.091800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001058 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.630 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.5 MB.
-System memory in use after: 90.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2486.
-Total: 1.827700 ms (FindLiveObjects: 0.190800 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.490800 ms  DeleteObjects: 0.104700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001298 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.677 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.5 MB.
-System memory in use after: 90.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2490.
-Total: 2.114000 ms (FindLiveObjects: 0.208600 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.722600 ms  DeleteObjects: 0.140300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000968 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.610 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.5 MB.
-System memory in use after: 90.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2494.
-Total: 1.734400 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.366300 ms  DeleteObjects: 0.100400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001176 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
 Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.635 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.5 MB.
-System memory in use after: 90.5 MB.
+Unloading 1883 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.9 MB.
+System memory in use after: 86.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2498.
-Total: 1.817700 ms (FindLiveObjects: 0.262500 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.404500 ms  DeleteObjects: 0.106400 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2330.
+Total: 3.330500 ms (FindLiveObjects: 0.827400 ms CreateObjectMapping: 0.329500 ms MarkObjects: 1.958600 ms  DeleteObjects: 0.213100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Plugins
+  artifactKey: Guid(9b889dffa2cc6ec488c30d5c64e4409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(9b889dffa2cc6ec488c30d5c64e4409c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb607c5bd3419b50bcd41fdd10fbd5d9') in 0.011558 seconds
+  Import took 0.068705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.953558 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(ac118d2f02d82c548a51a9b796a717c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(ac118d2f02d82c548a51a9b796a717c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae1760a7dcea3e8cca4b7d875412138') in 0.013061 seconds
+  Import took 0.062178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.659462 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(127e22ca95a94cb499146757856e5037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(127e22ca95a94cb499146757856e5037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5724aeecaa78c1e81f49c71c6bf2f5') in 0.012414 seconds
+  Import took 0.018688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.250388 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(8f82774477547d744a9c60ea3f73298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(8f82774477547d744a9c60ea3f73298e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548f18ce510430b530ff11e259e4b1a7') in 0.024114 seconds
+  Import took 0.040795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 317.858316 seconds.
+  path: Assets/Sprites/AppIcons
+  artifactKey: Guid(a2c2e9066f6f91f42af7324273d86f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons using Guid(a2c2e9066f6f91f42af7324273d86f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0f0cadb79bef9aa0bc6dfcaf52fb39') in 0.014250 seconds
+  Import took 0.043200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 458.581260 seconds.
+  path: Assets/Sprites/AppIcons/Apps-20211129T175235Z-001.zip
+  artifactKey: Guid(4be418646139fb74794a995fe65fdbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps-20211129T175235Z-001.zip using Guid(4be418646139fb74794a995fe65fdbcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da58a5cbfe1c39815762edf85f5c9e57') in 0.064114 seconds
+  Import took 0.070165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.411718 seconds.
+  path: Assets/Sprites/AppIcons/Apps
+  artifactKey: Guid(833deea6e9141314785f0a6a5e3aa84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps using Guid(833deea6e9141314785f0a6a5e3aa84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a451111aec474b0de3e184d3bf2ef71e') in 0.013998 seconds
+  Import took 0.058413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.028679 seconds.
+  path: Assets/Sprites/AppIcons/Apps/CorSettings.png
+  artifactKey: Guid(04e33269ad47eb34582645a89d585750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/CorSettings.png using Guid(04e33269ad47eb34582645a89d585750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d38ffacc94a3a42c24c9c3aa57daaa9') in 0.194073 seconds
+  Import took 0.217357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.733693 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png
+  artifactKey: Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png using Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615cb591a9138e9b95f9f720e7c4e8b3') in 0.053940 seconds
+  Import took 0.105961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.311788 seconds.
+  path: Assets/Sprites/AppIcons/Apps/CorSettings_Txt.png
+  artifactKey: Guid(f0e32b626b17ae644a32609b6eb86b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/CorSettings_Txt.png using Guid(f0e32b626b17ae644a32609b6eb86b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891a57fc60f7a621eae48a11910951d5') in 0.036009 seconds
+  Import took 0.097033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.783079 seconds.
+  path: Assets/Sprites/AppIcons/Apps/MonstaPet.png
+  artifactKey: Guid(a697573aeb3d83849b27970ecdd8b04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/MonstaPet.png using Guid(a697573aeb3d83849b27970ecdd8b04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184cfa88b2c67f6aeed014e53ea0a8ed') in 0.027386 seconds
+  Import took 0.076918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.464036 seconds.
+  path: Assets/Sprites/AppIcons/Apps/MonstaPet_Txt.png
+  artifactKey: Guid(7f3e827d91470d645920000632b9b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/MonstaPet_Txt.png using Guid(7f3e827d91470d645920000632b9b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1f18c72b7278b5f1830c38e6ded3f5') in 0.039436 seconds
+  Import took 0.094751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.802311 seconds.
+  path: Assets/Sprites/AppIcons/Apps/MonstaPet_Txt.png
+  artifactKey: Guid(7f3e827d91470d645920000632b9b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/MonstaPet_Txt.png using Guid(7f3e827d91470d645920000632b9b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b74da3ff8bea7aeb0a671a73a65a411') in 0.031496 seconds
+  Import took 0.127350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.771969 seconds.
+  path: Assets/Sprites/AppIcons/Apps/MonstaPet_Txt.png
+  artifactKey: Guid(7f3e827d91470d645920000632b9b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/MonstaPet_Txt.png using Guid(7f3e827d91470d645920000632b9b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce10e7393c19c9f739f409963f58aa1') in 0.049782 seconds
+  Import took 0.054455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.859276 seconds.
+  path: Assets/Sprites/AppIcons/Apps/MonstaPet_Txt.png
+  artifactKey: Guid(7f3e827d91470d645920000632b9b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/MonstaPet_Txt.png using Guid(7f3e827d91470d645920000632b9b289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c28e1edd952e0f6f0377ef20a6389f8') in 0.050360 seconds
+  Import took 0.057259 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000986 seconds.
+Registered in 0.001563 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F8FB04A510 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FDFA0830 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC307240 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F692E0F0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F69DF9C0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F697E550 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD53E030 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F697E550 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD53E030 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD53E030 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F697E550 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FACBD020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC0E3840 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD4C9FE0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F697E550 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F697E550 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F697E550 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC1FA420 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD488A30 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD488A30 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB9E7020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FAE95010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F692E0F0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB9E7020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD8E1620 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC1FA420 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FAD11020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD799060 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FDD51850 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F74F027C40 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6986F60 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FDFCE240 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6B67010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.668 seconds
+- Completed reload, in  1.252 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.5 MB.
-System memory in use after: 90.5 MB.
+System memory in use before: 89.8 MB.
+System memory in use after: 89.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2502.
-Total: 2.082200 ms (FindLiveObjects: 0.236600 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.693100 ms  DeleteObjects: 0.110400 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2340.
+Total: 2.494900 ms (FindLiveObjects: 0.182900 ms CreateObjectMapping: 0.062700 ms MarkObjects: 2.109500 ms  DeleteObjects: 0.137000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000992 seconds.
+Registered in 0.001828 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F8F6DC7030 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F91EBAA010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC215E70 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6673020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC4BAA10 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F697E550 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB812E40 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F697E550 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB04A510 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB812E40 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F697E550 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F654C010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC0E3840 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6673020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F697E550 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC6A3060 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC6A3060 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F67DAE40 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC6A3060 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FACE1C30 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC022820 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F675DFF0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6673020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC022820 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6EE10A0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F681E060 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC14B020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FCA96010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FDD52660 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F74F026EC0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC6A3060 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FCD6D450 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FCA78020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.5 MB.
-System memory in use after: 90.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2506.
-Total: 2.214800 ms (FindLiveObjects: 0.283300 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.769700 ms  DeleteObjects: 0.117400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001128 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.633 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.5 MB.
-System memory in use after: 90.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2510.
-Total: 1.891600 ms (FindLiveObjects: 0.260300 ms CreateObjectMapping: 0.041000 ms MarkObjects: 1.481100 ms  DeleteObjects: 0.107800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001452 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.628 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.5 MB.
-System memory in use after: 90.5 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2514.
-Total: 2.085700 ms (FindLiveObjects: 0.248000 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.692300 ms  DeleteObjects: 0.100800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001068 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.638 seconds
+- Completed reload, in  1.299 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.5 MB.
-System memory in use after: 90.5 MB.
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2518.
-Total: 1.861000 ms (FindLiveObjects: 0.199400 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.506800 ms  DeleteObjects: 0.113900 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2344.
+Total: 3.268000 ms (FindLiveObjects: 0.242300 ms CreateObjectMapping: 0.091900 ms MarkObjects: 2.774300 ms  DeleteObjects: 0.158200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001487 seconds.
+Registered in 0.001640 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F8FD3A89F0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F91EF5D010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6673770 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB81ED10 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FDC910E0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F697E550 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD53E030 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC69AE50 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FADAF020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F67D1010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F65A0040 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FDC93D90 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6EFA010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F66FF1C0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC69AE50 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB5F1030 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD9E3020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD942F70 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB5F1030 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC07A020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F70782D0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6E613F0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB81ED10 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F70782D0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD3A89F0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC5382A0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6A8EFA0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F65A0040 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FDD4FC30 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F74F0278E0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F708C2E0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F66FF1C0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F65A0040 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.622 seconds
+- Completed reload, in  1.149 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.5 MB.
-System memory in use after: 90.5 MB.
+System memory in use before: 89.9 MB.
+System memory in use after: 89.9 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2522.
-Total: 2.088400 ms (FindLiveObjects: 0.197200 ms CreateObjectMapping: 0.041800 ms MarkObjects: 1.735200 ms  DeleteObjects: 0.113100 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 2.530900 ms (FindLiveObjects: 0.197900 ms CreateObjectMapping: 0.092400 ms MarkObjects: 2.058000 ms  DeleteObjects: 0.180800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.592101 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen.png
+  artifactKey: Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen.png using Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7920acbf2ae61d389a7317f38ec29cf') in 0.093476 seconds
+  Import took 0.148059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.186527 seconds.
+  path: Assets/Sprites/AppIcons/Apps/StellarKnight.png
+  artifactKey: Guid(d37ea8ae1b569994eb59d0e3fb858bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/StellarKnight.png using Guid(d37ea8ae1b569994eb59d0e3fb858bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fe9f3ddf4187ef7bb6acc94b8ebcf0') in 0.030535 seconds
+  Import took 0.035770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002189 seconds.
+  path: Assets/Sprites/AppIcons/Apps/StellarKnight.png
+  artifactKey: Guid(d37ea8ae1b569994eb59d0e3fb858bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/StellarKnight.png using Guid(d37ea8ae1b569994eb59d0e3fb858bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fe9f3ddf4187ef7bb6acc94b8ebcf0') in 0.035476 seconds
+  Import took 0.041877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.295681 seconds.
+  path: Assets/Sprites/AppIcons/Apps/TrainToDrive.png
+  artifactKey: Guid(6a982f5d3bbbe8d4281f7c7743bb11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/TrainToDrive.png using Guid(6a982f5d3bbbe8d4281f7c7743bb11fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9663cc3fde2dc9bb22b3aed1c6be9a11') in 0.024670 seconds
+  Import took 0.045597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.369034 seconds.
+  path: Assets/Sprites/AppIcons/Apps/TrainToDrive_Txt.png
+  artifactKey: Guid(894ff8c648ad04540b732e0e6c0b278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/TrainToDrive_Txt.png using Guid(894ff8c648ad04540b732e0e6c0b278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4e1d5f1c6cefd685972ba67082a08b') in 0.022365 seconds
+  Import took 0.068981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.731500 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen.png
+  artifactKey: Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen.png using Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863c2d16036933620cc6932e1271f112') in 0.028202 seconds
+  Import took 0.096225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.262295 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen.png
+  artifactKey: Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen.png using Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b1a23d8e3da92c985b980dbe9b145a') in 0.036941 seconds
+  Import took 0.070449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.099903 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen.png
+  artifactKey: Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen.png using Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5b13d1c80950e1983443b9df1090ff') in 0.023025 seconds
+  Import took 0.052698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.575665 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen.png
+  artifactKey: Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen.png using Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293938e4d440a4472cf10475dc909a67') in 0.022962 seconds
+  Import took 0.026800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.944534 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen.png
+  artifactKey: Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen.png using Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf6ee8138922441ac51822db14601b2') in 0.025779 seconds
+  Import took 0.035889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.983533 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png
+  artifactKey: Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png using Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b32c2779c882065fa90246103b16ca') in 0.051413 seconds
+  Import took 0.057622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.942762 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen.png
+  artifactKey: Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen.png using Guid(05e72f22af81b454f83a332ef246dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeecc2302f25412c3badfb50a38defa8') in 0.024589 seconds
+  Import took 0.033737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.323083 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png
+  artifactKey: Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png using Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8aabb1864b1c252215b4401d23a9e57') in 0.028657 seconds
+  Import took 0.047113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.503321 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png
+  artifactKey: Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png using Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db009c9b08d4415fa8107361ee996207') in 0.041806 seconds
+  Import took 0.058408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png
+  artifactKey: Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png using Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db009c9b08d4415fa8107361ee996207') in 0.038820 seconds
+  Import took 0.046367 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000962 seconds.
+Registered in 0.002366 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F8FCC2F040 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F91EF5D010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F17CAF50 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F66FF1C0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FDC910E0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F697E550 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD998020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6962B70 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6B1F020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F706B010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F91EC0E020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FDC93D90 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6C309C0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F66FF1C0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6962B70 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD9E3020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD9E3020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD9A0030 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6757020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB81BE60 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F70782D0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F675DFF0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD940A20 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F70782D0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB270040 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F62D4980 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6E613F0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F65A0040 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FDD4EE20 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F74F0278E0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F708C2E0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F66FF1C0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FCA78020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.645 seconds
+- Completed reload, in  1.355 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.5 MB.
-System memory in use after: 90.5 MB.
+System memory in use before: 90.2 MB.
+System memory in use after: 90.2 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2526.
-Total: 2.192000 ms (FindLiveObjects: 0.273800 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.759000 ms  DeleteObjects: 0.117600 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2353.
+Total: 4.118400 ms (FindLiveObjects: 0.443100 ms CreateObjectMapping: 0.177600 ms MarkObjects: 3.348400 ms  DeleteObjects: 0.146500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.156986 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png
+  artifactKey: Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png using Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a7f6765323c3faed5e89468608d6ce') in 0.097728 seconds
+  Import took 0.150597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020875 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png
+  artifactKey: Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png using Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a7f6765323c3faed5e89468608d6ce') in 0.026259 seconds
+  Import took 0.030445 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001006 seconds.
+Registered in 0.001580 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F8FB270040 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F91EEC1060 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6C2F150 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F692E0F0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F661B3B0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC69AE50 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC191020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC69AE50 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC03A840 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6DF5010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F65A0040 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F91F051010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6C309C0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F66FF1C0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FC69AE50 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F69BAC20 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FCA2E040 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F69C38A0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F69BAC20 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6EE30B0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FCD3A020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD873010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F692E0F0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FCD3A020 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FB270040 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FD5F6420 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F6E613F0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F706B010 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8FDD53470 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F74F027220 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F69BAC20 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F66FF1C0 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F8F65A0040 doesn't match image E:\GitHub\GameOff2021\BUGame\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.618 seconds
+- Completed reload, in  1.369 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1877 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.6 MB.
-System memory in use after: 90.6 MB.
+System memory in use before: 90.2 MB.
+System memory in use after: 90.2 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2530.
-Total: 1.892700 ms (FindLiveObjects: 0.250400 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.495100 ms  DeleteObjects: 0.104500 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2358.
+Total: 2.771600 ms (FindLiveObjects: 0.218800 ms CreateObjectMapping: 0.093800 ms MarkObjects: 2.309100 ms  DeleteObjects: 0.147900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.184366 seconds.
+  path: Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png
+  artifactKey: Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/AppIcons/Apps/PCKleen_Txt.png using Guid(56cfe4e4c59b783449990bf327eef7bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99866bfa9a0001467154e661ba35c579') in 0.087933 seconds
+  Import took 0.104407 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
