@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class GlobalManager : MonoBehaviour
 {
-    public bool allowInteract = false;
+    public bool allowInteract;
     public GameObject[] interactables;
 
     public bool petCareComplete, platformerComplete, trainComplete, cleanerComplete;
 
     public bool fullComplete;
-    public bool bossBeaten;
 
     void Update()
     {

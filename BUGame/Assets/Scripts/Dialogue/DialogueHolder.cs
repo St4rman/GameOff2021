@@ -5,6 +5,7 @@ namespace DialogueSystem
     public class DialogueHolder : MonoBehaviour
     {
         [SerializeField] GlobalManager gm;
+        bool DialogueStart=true;
         public int levelnumber=0;
         public bool Introdone=false;
         public bool levelend=false;
@@ -14,8 +15,9 @@ namespace DialogueSystem
         }*/
         void Update()
         {
-              if(Input.GetKeyDown(KeyCode.F)&&levelend)
+              if(levelend&&DialogueStart)
               {
+                  DialogueStart=false;
                   StartSequence();
               }
         }
@@ -32,6 +34,7 @@ namespace DialogueSystem
                 transform.GetChild(levelnumber).GetChild(i).gameObject.SetActive(true);
                 yield return new WaitUntil(()=>transform.GetChild(levelnumber).GetChild(i).GetComponent<DialogueLine>().finished);
             }
+            Debug.Log("Yes");
             gm.allowInteract=true;
             Introdone=true;
             transform.gameObject.SetActive(false);
