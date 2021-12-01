@@ -2061,7 +2061,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d40c3b15291850540892e06be12f77f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootKey: 113
   recoilForce: 20
 --- !u!114 &340541954
 MonoBehaviour:
@@ -6028,7 +6027,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6cea37e03c70da5498058309c222fffd, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.003
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6889,15 +6888,15 @@ RectTransform:
   m_GameObject: {fileID: 1192318641}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3896596, y: 0.36669746, z: 0.31808946}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 580146149311926742}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 158.01007, y: -169.51009}
-  m_SizeDelta: {x: 48.2116, y: 44.9687}
+  m_AnchoredPosition: {x: 172.78946, y: -172.55844}
+  m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1192318643
 MonoBehaviour:
@@ -6912,14 +6911,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8490566, g: 0.18823424, b: 0.18823424, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: c3a79e79cc4bab143b61f4fde231b7da, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7150,7 +7149,7 @@ MonoBehaviour:
     with!
   textColor: {r: 1, g: 1, b: 1, a: 1}
   textFont: {fileID: 12800000, guid: ac591fad3579cc84bbd3a5880ef3801b, type: 3}
-  sound: {fileID: 0}
+  sound: {fileID: 8300000, guid: d57597944a7d78a4495362e848747f0c, type: 3}
 --- !u!114 &1271603576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12752,8 +12751,8 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
+  m_Volume: 0.357
+  m_Pitch: -0.47
   Loop: 0
   Mute: 0
   Spatialize: 0
