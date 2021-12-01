@@ -48,9 +48,6 @@ public class AiCamVisionDetection : MonoBehaviour
             {
 
                 RaycastHit2D hit = Physics2D.Raycast(transform.position, targetDir, obsMask);
-                Debug.DrawRay(transform.position, targetDir* hit.distance, Color.red);
-
-                
                 if(hit.transform == targetInRange[i].transform)
                 {
                     
@@ -73,15 +70,5 @@ public class AiCamVisionDetection : MonoBehaviour
         yield return new WaitForSeconds(5);
         md.enabled=true;
         yield return null;
-    }
-
-
-    void OnDrawGizmos()
-    {
-        Handles.DrawWireArc(transform.position, Vector3.forward, transform.up, viewAngle/2, viewRadius);
-        Handles.DrawWireArc(transform.position, Vector3.forward, transform.up, -viewAngle/2, viewRadius);
-
-        //Debug.DrawRay(transform.position, transform.up * viewRadius, Color.cyan);
-
-    }
+    }   
 }

@@ -11,9 +11,6 @@ namespace TimeDialogueSystem
         [SerializeField]private string input;
         [SerializeField]private Color textColor;
         [SerializeField]private Font textFont;
-
-        [Header ("Sound")]
-        [SerializeField] private AudioClip sound;
         private void Awake()
         {
             textHolder= GetComponent<Text>();
@@ -22,7 +19,7 @@ namespace TimeDialogueSystem
         }
         private void Start()
         {
-            StartCoroutine(TimeWriteText(input,textHolder,textColor,textFont,sound));
+            StartCoroutine(TimeWriteText(input,textHolder,textColor,textFont));
         }
     }
 }

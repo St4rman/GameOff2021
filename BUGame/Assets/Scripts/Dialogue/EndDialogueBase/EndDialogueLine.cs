@@ -11,9 +11,6 @@ namespace EndDialogueSystem
         [SerializeField]private string input;
         [SerializeField]private Color textColor;
         [SerializeField]private Font textFont;
-
-        [Header ("Sound")]
-        [SerializeField] private AudioClip sound;
         private void Awake()
         {
             textHolder= GetComponent<Text>();
@@ -22,7 +19,7 @@ namespace EndDialogueSystem
         }
         private void Start()
         {
-            StartCoroutine(WriteText(input,textHolder,textColor,textFont,sound));
+            StartCoroutine(WriteText(input,textHolder,textColor,textFont));
         }
     }
 }
