@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class SideScrollerGun : MonoBehaviour
 {
-    [Header("Shooting Variables")]
-    [SerializeField] public KeyCode shootKey;
+    
+    
+   
     public float recoilForce;
     [Header("References")]
     Rigidbody2D prb;
@@ -23,12 +25,15 @@ public class SideScrollerGun : MonoBehaviour
         Vector3 RecoilDirection = -mouseTo.normalized;
         Debug.DrawRay(transform.position, RecoilDirection, Color.green);
 
-        if(Input.GetKey(shootKey))
+        if(Input.GetMouseButtonDown(0))
         {
             Vector2 recoil2D = new Vector2(RecoilDirection.x, RecoilDirection.y);
             shoot(recoil2D);
         }
+
     }
+
+    
     Vector3 getMousePosition(){
 
         var mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
